@@ -248,7 +248,7 @@ function App() {
               <div className="font-bold text-gray-500 text-sm">
                 --we worked with.
               </div>
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-gray-500 mt-2">
                 get six alpha pups in here for a focus group staff big picture
                 engagement, and critical mass, for we've got to manage that low
                 back strategy hanging fruit.
