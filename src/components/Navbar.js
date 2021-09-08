@@ -6,7 +6,7 @@ function Navbar() {
     <div>
       <div className="apple">
         <div className="p-4">
-          <div className="text-white inline">
+          <div className="text-white inline font-bold">
             Lpardo
             <ul className="inline float-right">
               <li className="text-white inline text-sm">
