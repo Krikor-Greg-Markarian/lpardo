@@ -159,75 +159,7 @@ function App() {
         </div>
       </section>
 
-      <section className="">
-        {/* <div className="grid grid-cols-4 container mx-auto gap-2">
-          <img
-            src="https://cdn.pixabay.com/photo/2018/08/28/13/29/avatar-3637561__340.png"
-            className="w-24"
-            alt=""
-          />
-          <img
-            src="https://cdn.pixabay.com/photo/2018/08/28/13/29/avatar-3637561__340.png"
-            className="w-24"
-            alt=""
-          />
-          <img
-            src="https://cdn.pixabay.com/photo/2018/08/28/13/29/avatar-3637561__340.png"
-            className="w-24"
-            alt=""
-          />
-          <div className="bg-black"></div>
-        </div>
-        <div className="grid grid-cols-4 container mx-auto gap-2">
-          <img
-            src="https://cdn.pixabay.com/photo/2018/08/28/13/29/avatar-3637561__340.png"
-            className="w-24"
-            alt=""
-          />
-          <img
-            src="https://cdn.pixabay.com/photo/2018/08/28/13/29/avatar-3637561__340.png"
-            className="w-24"
-            alt=""
-          />
-          <img
-            src="https://cdn.pixabay.com/photo/2018/08/28/13/29/avatar-3637561__340.png"
-            className="w-24"
-            alt=""
-          />
-          <div className="bg-black"></div>
-        </div> */}
-
-        {/* <div className = "">
-        <div className = "pl-20">
-          
-           <div className = "grid grid-cols-2">
-            <div className = "grid-grid-cols-3">
-              <div className = "col-span-1 flex gap-6">
-              <div className = "bg-blue-500 w-32 h-32">asdasdasd</div>
-              <div className = "bg-blue-500 w-32 h-32">asdasdasd</div>
-              <div className = "bg-blue-500 w-32 h-32">asdasdasd</div>
-              </div>
-              <div className = "col-span-1 flex gap-6 pt-6">
-              <div className = "bg-blue-500 w-32 h-32">asdasdasd</div>
-              <div className = "bg-blue-500 w-32 h-32">asdasdasd</div>
-              <div className = "bg-blue-500 w-32 h-32">asdasdasd</div>
-              </div>
-              
-              
-            </div>
-            
-            
-            
-
-            <div className = "">
-              
-              <div className = "bg-black w-40 h-72 w-full"></div>
-            </div>
-           </div>
-          
-        </div>
-      </div> */}
-
+      <section className="pt-8">
         <div className="container ">
           <div className="grid grid-cols-5 gap-4">
             <div className="col-span-3">
@@ -252,7 +184,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="col-span-2 bg-black p-12 ">
+            <div className="col-span-2 bg-black p-12">
               <div className="">
                 <p className=" text-gray-400">04/11</p>
                 <p className=" text-gray-400 pt-8">DEVELOPER</p>
@@ -366,65 +298,62 @@ function App() {
         </div>
       </section>
 
-      <section className="pt-40 ">
-        <div className="bg-black">
+      
+
+      <section className="mt-20">
+        <div className="bg-black pt-12 pl-20 pr-20">
           <div className="container mx-auto">
             <div className="grid grid-cols-2">
-              <div className="p-16">
+              <div className="col-span-1">
                 <p className="text-white">Lpardo</p>
                 <p className="text-gray-500 text-sm">
-                  we do care about details and stuff.
+                  We do care about details and stuff.
                 </p>
-                <ul className="pt-96">
-                  <li className="text-white font-bold inline">
-                    <a href="#">About</a>
-                  </li>
-                  <li className="text-white ml-5 inline">
-                    <a href="#">Works</a>
-                  </li>
-                  <li className="text-white ml-5 inline">
-                    <a href="#">Careers</a>
-                  </li>
-                </ul>
               </div>
-              <div>
-                {" "}
-                <div className="pt-12 pl-10">
-                  <p className="text-white">
-                    "There are no secrets to success. it is the result of
-                    preparation, hard work, and ongoing learning."
-                  </p>
-
-                  <div className="grid grid-cols-2">
-                    <div className="text-white col-span-1 text-xm text-gray-500 pt-12 text-sm">
-                      VISIT US{" "}
-                      <p className="text-gray-400 pt-4">
-                        3131 chestnut Ave, Brooklyn, NY 11238, United States
-                      </p>
-                    </div>
-                    <div className="ml-12 ">
-                      <div className="text-white col-span-1 text-xm text-gray-500 pt-12 text-sm">
-                        CONTACT US{" "}
-                        <p className="text-gray-400 pt-4">info@lpardo.com</p>
-                        <p className="text-gray-400">+1518-719-0102</p>
-                      </div>
-                    </div>
+              <div className="col-span-1">
+                <p className="text-white">
+                  {" "}
+                  "There are no secrets to success. it is the result of
+                  preparation, hard work, and ongoing learning."
+                </p>
+                <div className="grid grid-cols-2 pt-16">
+                  <div className="col-span-1">
+                    <p className="text-gray-500 text-sm ">VISIT US</p>
+                    <p className="text-gray-400 pt-4 text-sm">
+                      3131 Chestnut Ave,<br></br> Brooklyn,NY 11238, <br></br>United States
+                    </p>
+                  </div>
+                  <div className="col-span-1 pl-10">
+                    <p className="text-gray-500 text-sm">CONTACT US</p>
+                    <p className="text-gray-400 pt-4 text-sm">
+                      info@lpardo.com
+                    </p>
+                    <p className="text-gray-400">+1518-719-0102</p>
                   </div>
                 </div>
-                <div className="grid grid-cols-2 pt-60">
-                  <div className="text-white">
-                    <div className="bg-yellow-400 w-34 h-16">
-                      <div className="text-black text-center pt-5">
-                        <FaInstagram className="inline" />
-                        <FaFacebookF className="inline ml-5" />
-                        <FaBasketballBall className="inline ml-5" />
-                        <FaTwitter className="inline ml-5" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="text-gray-400 text-sm flex justify-center items-center">
-                    &copy; 2020. Copyright 42Theme
-                  </div>
+              </div>
+              <div className="grid grid-cols-3 pt-9">
+                <div className="col-span-1">
+                  <ul>
+                    <li className="text-white inline font-bold">
+                      <a href="#">About</a>
+                    </li>
+                    <li className="text-white inline text-gray-500 pl-6">
+                      <a href="#">Works</a>
+                    </li>
+                    <li className="text-white inline text-gray-500 pl-6">
+                      <a href="#">Careers</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="text-center pt-6">
+                <div className="w-32 h-12 bg-yellow-400 flex justify-start items-center p-3">
+                  <FaInstagram className="inline" />
+                  <FaFacebookF className="inline ml-5" />
+                  <FaBasketballBall className="inline ml-5" />
+                  <FaTwitter className="inline ml-5" />
+                 
                 </div>
               </div>
             </div>
