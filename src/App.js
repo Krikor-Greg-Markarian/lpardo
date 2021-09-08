@@ -106,8 +106,18 @@ function App() {
         </div>
       </section>
 
+
+
+
+
+
+
+
+
+
+
       <section className="">
-        <div className="grid grid-cols-4 container mx-auto gap-2">
+        {/* <div className="grid grid-cols-4 container mx-auto gap-2">
           <img
             src="https://cdn.pixabay.com/photo/2018/08/28/13/29/avatar-3637561__340.png"
             className="w-24"
@@ -142,14 +152,127 @@ function App() {
             alt=""
           />
           <div className="bg-black"></div>
+        </div> */}
+
+
+
+
+
+      {/* <div className = "">
+        <div className = "pl-20">
+          
+           <div className = "grid grid-cols-2">
+            <div className = "grid-grid-cols-3">
+              <div className = "col-span-1 flex gap-6">
+              <div className = "bg-blue-500 w-32 h-32">asdasdasd</div>
+              <div className = "bg-blue-500 w-32 h-32">asdasdasd</div>
+              <div className = "bg-blue-500 w-32 h-32">asdasdasd</div>
+              </div>
+              <div className = "col-span-1 flex gap-6 pt-6">
+              <div className = "bg-blue-500 w-32 h-32">asdasdasd</div>
+              <div className = "bg-blue-500 w-32 h-32">asdasdasd</div>
+              <div className = "bg-blue-500 w-32 h-32">asdasdasd</div>
+              </div>
+              
+              
+            </div>
+            
+            
+            
+
+            <div className = "">
+              
+              <div className = "bg-black w-40 h-72 w-full"></div>
+            </div>
+           </div>
+          
         </div>
+      </div> */}
+
+
+      <div className = "container ">
+        <div className = "grid grid-cols-5 gap-4">
+          <div className = "col-span-3">
+          <div className = "grid grid-cols-3 gap-4">
+            <div className = "col-span-1">
+            <div className = " image w-24"></div>
+            </div>
+            <div className = "col-span-1">
+            <div className = " image1"></div>
+            </div>
+            <div className = "col-span-1">
+            <div className = "image2"></div>
+            </div>
+            <div className = "col-span-1">
+            <div className = " image3"></div>
+            </div>
+            <div className = "col-span-1">
+            <div className = " image4"></div>
+            </div>
+            <div className = "col-span-1">
+            <div className = " image5"></div>
+            </div>
+            </div>
+          
+          </div>
+          <div className = "col-span-2 bg-black p-12 ">
+            <div className = "">
+              <p className =" text-gray-400">04/11</p>
+              <p className =" text-gray-400 pt-8">DEVELOPER</p>
+              <p className = "text-gray-300 font-bold ">Jeremy Harvey</p>
+              <p className = "text-gray-200 pt-3">i realized she was just office pretty. Products need full resourcing and support from a cross-functional team in order to be built.</p>
+              <div className = "text-white pt-12">
+              <FaInstagram className = "inline"/>
+                <FaFacebookF className = "inline ml-5"/>
+                <FaTwitter className = "inline ml-5"/>
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </section>
+
+
+
+
+
+
+
+
+
+
+
 
       <section className="pt-40">
         <div className="container mx-auto">
           <div className="grid grid-cols-2 ">
             <div className="col-span-1">
-              <div className="text-sm text-gray-500 pt-8 pr-8">
+              <div className="text-sm5 text-gray-500 pt-8 pr-8 ">
                 Locked and loaded we're all in thes together, even if our
                 business function different, for i have a hard stop in an hour
                 and half or fast track.
