@@ -332,7 +332,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="grid grid-cols-3 pt-9">
+              <div className="grid grid-cols-3 pt-16">
                 <div className="col-span-1">
                   <ul>
                     <li className="text-white inline font-bold">
@@ -347,7 +347,7 @@ function App() {
                   </ul>
                 </div>
               </div>
-              <div className="text-center pt-6 grid grid-cols-2">
+              <div className="text-center pt-12 grid grid-cols-2 ">
                 <div className="w-32 h-12 bg-yellow-400 flex justify-start items-center p-3">
                   <FaInstagram className="inline" />
                   <FaFacebookF className="inline ml-5" />
