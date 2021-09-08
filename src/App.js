@@ -285,8 +285,8 @@ function App() {
                 </div>
                 <div className="grid grid-cols-2 pt-60">
                   <div className="text-white">
-                    <div className="bg-yellow-400 w-34 h-20">
-                      <div className="text-black text-center pt-8">
+                    <div className="bg-yellow-400 w-34 h-16">
+                      <div className="text-black text-center pt-5">
                         <FaInstagram className="inline" />
                         <FaFacebookF className="inline ml-5" />
                         <FaBasketballBall className="inline ml-5" />
@@ -294,7 +294,7 @@ function App() {
                       </div>
                     </div>
                   </div>
-                  <div className="text-gray-400 pl-12">
+                  <div className="text-gray-400 text-sm flex justify-center items-center">
                     &copy; 2020. Copyright 42Theme
                   </div>
                 </div>
