@@ -138,8 +138,6 @@ function App() {
         </div>
       </section>
 
-
-
       <section className="pt-40">
         <div className="container mx-auto">
           <div className="grid grid-cols-2 ">
@@ -156,32 +154,89 @@ function App() {
                 we create digital experiences for brands and companies
               </p>
             </div>
-           
           </div>
-          <div className = "pt-8 ">
-            <div className = "giftbox "></div>
+          <div className="pt-8 ">
+            <div className="giftbox "></div>
+          </div>
+          <div className="absolute ">
+            <div className="bg-black w-40 h-32 p-4">
+              <div className="text-gray-500 text-sm">uuux</div>
+              <div className="text-white text-sm pt-1">
+                Touch base come up with something more
+              </div>
             </div>
-            <div className = "absolute ">
-            <div className = "bg-black w-40 h-32 p-4">
-              <div className = "text-gray-500 text-sm">uuux</div>
-              <div className = "text-white text-sm pt-1">Touch base come up with something more</div>
-            </div>
-            </div>
+          </div>
         </div>
+      </section>
+
+      <section className=" pt-60">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-2">
+            <div className="col-span-1">
+              <div className="font-bold text-2xl">Our clients</div>
+            </div>
+            <div className="col-span-1">
+              <div className="font-bold text-gray-500 text-sm">
+                --we worked with.
+              </div>
+              <p className="text-sm text-gray-500">
+                get six alpha pups in here for a focus group staff big picture
+                engagement, and critical mass, for we've got to manage that low
+                back strategy hanging fruit.
+              </p>
+            </div>
+          </div>
+
+
+
+
+          <div className="pt-6 pl-12 pr-12">
+            <div className="grid grid-cols-4">
+              <div className="col-span-1">
+                <div></div>
+                <p className="text-gray-500 text-sm">BDB Group </p>
+              </div>
+              <div className="col-span-1">
+                <div></div>
+                <p className="text-gray-500 text-sm">MoolGreat </p>
+              </div>
+              <div className="col-span-1">
+                <div></div>
+                <p className="text-gray-500 text-sm">MMl production </p>
+              </div>
+              <div className="col-span-1">
+                <div></div>
+                <p className="text-gray-500 text-sm">stefani </p>
+              </div>
+            </div>
+          </div>
+          <div className="pt-6 pl-12 pr-12">
+            <div className="grid grid-cols-4">
+              <div className="col-span-1">
+                <div></div>
+                <p className="text-gray-500 text-sm"> </p>
+              </div>
+              <div className="col-span-1">
+                <div></div>
+                <p className="text-gray-500 text-sm">Sonami </p>
+              </div>
+              <div className="col-span-1">
+                <div></div>
+                <p className="text-black text-sm font-bold">MEDIAS </p>
+              </div>
+              <div className="col-span-1">
+                <div></div>
+                <p className="text-gray-500 text-sm"> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </section>
 
 
 
-      <section>
-        <div className = "container mx-auto">
-
-        </div>
-      </section>
-
-
-
-
-
+      
 
 
 
