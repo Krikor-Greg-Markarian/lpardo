@@ -300,7 +300,7 @@ function App() {
       </section>
 
       <section className="mt-20">
-        <div className="bg-black pt-12 pl-20 pr-20">
+        <div className="bg-black pt-12 pl-36 pr-36">
           <div className="container mx-auto">
             <div className="grid grid-cols-2">
               <div className="col-span-1">
