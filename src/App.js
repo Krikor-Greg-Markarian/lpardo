@@ -34,7 +34,8 @@ const object2 = {
   data: [
     {
       title: "User Experiennce",
-      subtitle: "Get six alpha pups in here for a focus group items at the end of the day",
+      subtitle:
+        "Get six alpha pups in here for a focus group items at the end of the day",
     },
   ],
 };
@@ -43,7 +44,8 @@ const object3 = {
   data: [
     {
       title: "Flolowers Trends",
-      subtitle: "All hands on deck golden goose low-hanging fruit yet imagineer.",
+      subtitle:
+        "All hands on deck golden goose low-hanging fruit yet imagineer.",
     },
   ],
 };
