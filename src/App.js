@@ -160,8 +160,9 @@ function App() {
       </section>
 
       <section className="pt-8">
-        <div className="container ">
-          <div className="grid grid-cols-5 gap-4">
+        <div className=" ">
+          <div className="grid grid-cols-6 gap-4">
+            <div className = "col-span-1"></div>
             <div className="col-span-3">
               <div className="grid grid-cols-3 gap-4">
                 <div className="col-span-1">
@@ -184,9 +185,9 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="col-span-2 bg-black p-12">
+            <div className="col-span-2 bg-black p-12 w-full">
               <div className="">
-                <p className=" text-gray-400">04/11</p>
+                <p className=" text-gray-400 ">04/11</p>
                 <p className=" text-gray-400 pt-8">DEVELOPER</p>
                 <p className="text-gray-300 font-bold ">Jeremy Harvey</p>
                 <p className="text-gray-200 pt-3">
@@ -298,8 +299,6 @@ function App() {
         </div>
       </section>
 
-      
-
       <section className="mt-20">
         <div className="bg-black pt-12 pl-20 pr-20">
           <div className="container mx-auto">
@@ -320,7 +319,8 @@ function App() {
                   <div className="col-span-1">
                     <p className="text-gray-500 text-sm ">VISIT US</p>
                     <p className="text-gray-400 pt-4 text-sm">
-                      3131 Chestnut Ave,<br></br> Brooklyn,NY 11238, <br></br>United States
+                      3131 Chestnut Ave,<br></br> Brooklyn,NY 11238, <br></br>
+                      United States
                     </p>
                   </div>
                   <div className="col-span-1 pl-10">
@@ -347,13 +347,15 @@ function App() {
                   </ul>
                 </div>
               </div>
-              <div className="text-center pt-6">
+              <div className="text-center pt-6 grid grid-cols-2">
                 <div className="w-32 h-12 bg-yellow-400 flex justify-start items-center p-3">
                   <FaInstagram className="inline" />
                   <FaFacebookF className="inline ml-5" />
                   <FaBasketballBall className="inline ml-5" />
                   <FaTwitter className="inline ml-5" />
-                 
+                </div>
+                <div className="text-gray-400 text-sm flex justify-center items-center">
+                  &copy;2020, Copyright 42Theme{" "}
                 </div>
               </div>
             </div>
