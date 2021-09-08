@@ -1,7 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import { FaSearch, FaSmile } from "react-icons/fa";
+import {
+  FaSearch,
+  FaSmile,
+  FaInstagram,
+  FaFacebookF,
+  FaBasketballBall,
+  FaTwitter,
+} from "react-icons/fa";
 import Bestdesigncomp from "./components/Bestdesigncomp";
 import Smallimg from "./components/Smallimg";
 
@@ -156,13 +163,14 @@ function App() {
             </div>
           </div>
           <div className="pt-8 ">
-            <div className="giftbox "></div>
-          </div>
-          <div className="absolute ">
-            <div className="bg-black w-40 h-32 p-4">
-              <div className="text-gray-500 text-sm">uuux</div>
-              <div className="text-white text-sm pt-1">
-                Touch base come up with something more
+            <div className="giftbox relative">
+              <div className="absolute right-0 -bottom-16">
+                <div className="bg-black w-40 h-32 p-4">
+                  <div className="text-gray-500 text-sm">uuux</div>
+                  <div className="text-white text-sm pt-1">
+                    Touch base come up with something more
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -187,10 +195,7 @@ function App() {
             </div>
           </div>
 
-
-
-
-          <div className="pt-6 pl-12 pr-12">
+          <div className="pt-20 pl-12 pr-12">
             <div className="grid grid-cols-4">
               <div className="col-span-1">
                 <div></div>
@@ -210,7 +215,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="pt-6 pl-12 pr-12">
+          <div className="pt-8 pl-12 pr-12">
             <div className="grid grid-cols-4">
               <div className="col-span-1">
                 <div></div>
@@ -231,18 +236,73 @@ function App() {
             </div>
           </div>
         </div>
-        
       </section>
 
+      <section className="pt-40 ">
+        <div className="bg-black">
+          <div className="container mx-auto">
+            <div className="grid grid-cols-2">
+              <div className="p-16">
+                <p className="text-white">Lpardo</p>
+                <p className="text-gray-500 text-sm">
+                  we do care about details and stuff.
+                </p>
+                <ul className="pt-96">
+                  <li className="text-white font-bold inline">
+                    <a href="#">About</a>
+                  </li>
+                  <li className="text-white ml-5 inline">
+                    <a href="#">Works</a>
+                  </li>
+                  <li className="text-white ml-5 inline">
+                    <a href="#">Careers</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                {" "}
+                <div className="pt-12 pl-10">
+                  <p className="text-white">
+                    "There are no secrets to success. it is the result of
+                    preparation, hard work, and ongoing learning."
+                  </p>
 
-
-      
-
-
-
-
-
-
+                  <div className="grid grid-cols-2">
+                    <div className="text-white col-span-1 text-xm text-gray-500 pt-12 text-sm">
+                      VISIT US{" "}
+                      <p className="text-gray-400 pt-4">
+                        3131 chestnut Ave, Brooklyn, NY 11238, United States
+                      </p>
+                    </div>
+                    <div className="ml-12 ">
+                      <div className="text-white col-span-1 text-xm text-gray-500 pt-12 text-sm">
+                        CONTACT US{" "}
+                        <p className="text-gray-400 pt-4">info@lpardo.com</p>
+                        <p className="text-gray-400">+1518-719-0102</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="grid grid-cols-2 pt-60">
+                  <div className="text-white">
+                    <div className="bg-yellow-400 w-34 h-20">
+                      <div className="text-black text-center pt-8">
+                        <FaInstagram className="inline" />
+                        <FaFacebookF className="inline ml-5" />
+                        <FaBasketballBall className="inline ml-5" />
+                        <FaTwitter className="inline ml-5" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="text-gray-400 pl-12">
+                    &copy; 2020. Copyright 42Theme
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
