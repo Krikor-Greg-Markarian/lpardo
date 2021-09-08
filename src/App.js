@@ -80,13 +80,17 @@ function App() {
     <section className = "mt-20 mb-20">
      <div className = "container mx-auto">
         <div className = "grid grid-cols-3">
+          
           <div className = "text-gray-500 text-sm">--Team of professional
+         
           <p className = "font-bold text-2xl text-black pt-2">our team is always here to help you</p></div>
           <div className = "text-gray-500 text-sm pt-8">Wheelhouse cross-pollination, nor face time turd polishing. Turn the ship. Drive awarness to increase keep it lean.</div>
-         
-          <button class="bg-transparent hover:bg-blue-500 text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded">
-  Button
+         <div className = "flex justify-center items-center pt-8">
+          <button class="bg-transparent hover:bg-blue-500 text-black text-sm hover:text-white py-1 px-5 border border-black hover:border-transparent">
+        
+  JOIN US
 </button>
+</div>
         
         </div>
        
