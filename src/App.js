@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import { FaSearch, FaSmile } from "react-icons/fa";
 import Bestdesigncomp from "./components/Bestdesigncomp";
+import Smallimg from "./components/Smallimg";
 
 function App() {
   return (
@@ -76,26 +77,114 @@ function App() {
         </div>
       </section>
 
-
-    <section className = "mt-20 mb-20">
-     <div className = "container mx-auto">
-        <div className = "grid grid-cols-3">
-          
-          <div className = "text-gray-500 text-sm">--Team of professional
-         
-          <p className = "font-bold text-2xl text-black pt-2">our team is always here to help you</p></div>
-          <div className = "text-gray-500 text-sm pt-8">Wheelhouse cross-pollination, nor face time turd polishing. Turn the ship. Drive awarness to increase keep it lean.</div>
-         <div className = "flex justify-center items-center pt-8">
-          <button class="bg-transparent hover:bg-blue-500 text-black text-sm hover:text-white py-1 px-5 border border-black hover:border-transparent">
-        
-  JOIN US
-</button>
-</div>
-        
+      <section className="mt-20 mb-20">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-3">
+            <div className="text-gray-500 text-sm">
+              --Team of professional
+              <p className="font-bold text-2xl text-black pt-2">
+                our team is always here to help you
+              </p>
+            </div>
+            <div className="text-gray-500 text-sm pt-8 pl-12">
+              Wheelhouse cross-pollination, nor face time turd polishing. Turn
+              the ship. Drive awarness to increase keep it lean.
+            </div>
+            <div className="flex justify-center items-center pt-8">
+              <button class="bg-transparent hover:bg-blue-500 text-black text-sm hover:text-white py-1 px-5 border border-black hover:border-transparent">
+                JOIN US
+              </button>
+            </div>
+          </div>
         </div>
-       
-     </div>
-    </section>
+      </section>
+
+      <section className="">
+        <div className="grid grid-cols-4 container mx-auto gap-2">
+          <img
+            src="https://cdn.pixabay.com/photo/2018/08/28/13/29/avatar-3637561__340.png"
+            className="w-24"
+            alt=""
+          />
+          <img
+            src="https://cdn.pixabay.com/photo/2018/08/28/13/29/avatar-3637561__340.png"
+            className="w-24"
+            alt=""
+          />
+          <img
+            src="https://cdn.pixabay.com/photo/2018/08/28/13/29/avatar-3637561__340.png"
+            className="w-24"
+            alt=""
+          />
+          <div className="bg-black"></div>
+        </div>
+        <div className="grid grid-cols-4 container mx-auto gap-2">
+          <img
+            src="https://cdn.pixabay.com/photo/2018/08/28/13/29/avatar-3637561__340.png"
+            className="w-24"
+            alt=""
+          />
+          <img
+            src="https://cdn.pixabay.com/photo/2018/08/28/13/29/avatar-3637561__340.png"
+            className="w-24"
+            alt=""
+          />
+          <img
+            src="https://cdn.pixabay.com/photo/2018/08/28/13/29/avatar-3637561__340.png"
+            className="w-24"
+            alt=""
+          />
+          <div className="bg-black"></div>
+        </div>
+      </section>
+
+
+
+      <section className="pt-40">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-2 ">
+            <div className="col-span-1">
+              <div className="text-sm text-gray-500 pt-8 pr-8">
+                Locked and loaded we're all in thes together, even if our
+                business function different, for i have a hard stop in an hour
+                and half or fast track.
+              </div>
+            </div>
+            <div className="col-span-1">
+              <p className="text-gray-500 text-sm pl-6">--our portfolio</p>
+              <p className="font-bold text-2xl pl-6">
+                we create digital experiences for brands and companies
+              </p>
+            </div>
+           
+          </div>
+          <div className = "pt-8 ">
+            <div className = "giftbox "></div>
+            </div>
+            <div className = "absolute ">
+            <div className = "bg-black w-40 h-32 p-4">
+              <div className = "text-gray-500 text-sm">uuux</div>
+              <div className = "text-white text-sm pt-1">Touch base come up with something more</div>
+            </div>
+            </div>
+        </div>
+      </section>
+
+
+
+      <section>
+        <div className = "container mx-auto">
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
 
 
 
