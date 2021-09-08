@@ -6,7 +6,7 @@ function Bestdesigncomp(props) {
     <div className = " mt-3">
         <div className = ""></div>
         <p className = "font-bold pb-4 ">{props.title} </p>
-        <p className = "text-sm text-gray-500">{props.description}</p>
+        <p className = "text-sm text-gray-500">{props.subtitle}</p>
     </div>
   );
 }
