@@ -12,6 +12,42 @@ import {
 import Bestdesigncomp from "./components/Bestdesigncomp";
 import Smallimg from "./components/Smallimg";
 
+const object = {
+  data: [
+    {
+      title: "Best Design Strategy",
+      subtitle: "Praire dogging drop-dead date old boys club high touch",
+    },
+  ],
+};
+
+const object1 = {
+  data: [
+    {
+      title: "innovative Technology",
+      subtitle: "Overcome key issues meet key milestones do i haev consent",
+    },
+  ],
+};
+
+const object2 = {
+  data: [
+    {
+      title: "User Experiennce",
+      subtitle: "Get six alpha pups in here for a focus group items at the end of the day",
+    },
+  ],
+};
+
+const object3 = {
+  data: [
+    {
+      title: "Flolowers Trends",
+      subtitle: "All hands on deck golden goose low-hanging fruit yet imagineer.",
+    },
+  ],
+};
+
 function App() {
   return (
     <div>
@@ -20,22 +56,37 @@ function App() {
       </section>
 
       <section className="grid grid-cols-2 container mx-auto mt-24 mb-24">
-        <Bestdesigncomp
-          title="Best Design Strategy"
-          description="Prairie dogging drop-dead date old boys high touch client."
-        />
-        <Bestdesigncomp
-          title="Innovative Technology"
-          description="overcome key issues to meet key milestones do i have consent."
-        />
-        <Bestdesigncomp
-          title="User Experience"
-          description="Get six alpha pups in here for a focus group items at the end of the day."
-        />
-        <Bestdesigncomp
-          title="Followers Trends"
-          description="All hands on deck golden goose low- hanging fruit yet imagineer."
-        />
+        {object.data.map((item, idx) => (
+          <Bestdesigncomp
+            key={idx}
+            title={item.title}
+            subtitle={item.subtitle}
+          />
+        ))}
+
+        {object1.data.map((item, idx) => (
+          <Bestdesigncomp
+            key={idx}
+            title={item.title}
+            subtitle={item.subtitle}
+          />
+        ))}
+
+        {object2.data.map((item, idx) => (
+          <Bestdesigncomp
+            key={idx}
+            title={item.title}
+            subtitle={item.subtitle}
+          />
+        ))}
+
+        {object3.data.map((item, idx) => (
+          <Bestdesigncomp
+            key={idx}
+            title={item.title}
+            subtitle={item.subtitle}
+          />
+        ))}
       </section>
 
       <section className="mb-20">
@@ -106,16 +157,6 @@ function App() {
         </div>
       </section>
 
-
-
-
-
-
-
-
-
-
-
       <section className="">
         {/* <div className="grid grid-cols-4 container mx-auto gap-2">
           <img
@@ -154,11 +195,7 @@ function App() {
           <div className="bg-black"></div>
         </div> */}
 
-
-
-
-
-      {/* <div className = "">
+        {/* <div className = "">
         <div className = "pl-20">
           
            <div className = "grid grid-cols-2">
@@ -189,84 +226,50 @@ function App() {
         </div>
       </div> */}
 
-
-      <div className = "container ">
-        <div className = "grid grid-cols-5 gap-4">
-          <div className = "col-span-3">
-          <div className = "grid grid-cols-3 gap-4">
-            <div className = "col-span-1">
-            <div className = " image w-24"></div>
-            </div>
-            <div className = "col-span-1">
-            <div className = " image1"></div>
-            </div>
-            <div className = "col-span-1">
-            <div className = "image2"></div>
-            </div>
-            <div className = "col-span-1">
-            <div className = " image3"></div>
-            </div>
-            <div className = "col-span-1">
-            <div className = " image4"></div>
-            </div>
-            <div className = "col-span-1">
-            <div className = " image5"></div>
-            </div>
-            </div>
-          
-          </div>
-          <div className = "col-span-2 bg-black p-12 ">
-            <div className = "">
-              <p className =" text-gray-400">04/11</p>
-              <p className =" text-gray-400 pt-8">DEVELOPER</p>
-              <p className = "text-gray-300 font-bold ">Jeremy Harvey</p>
-              <p className = "text-gray-200 pt-3">i realized she was just office pretty. Products need full resourcing and support from a cross-functional team in order to be built.</p>
-              <div className = "text-white pt-12">
-              <FaInstagram className = "inline"/>
-                <FaFacebookF className = "inline ml-5"/>
-                <FaTwitter className = "inline ml-5"/>
+        <div className="container ">
+          <div className="grid grid-cols-5 gap-4">
+            <div className="col-span-3">
+              <div className="grid grid-cols-3 gap-4">
+                <div className="col-span-1">
+                  <div className=" image w-24"></div>
                 </div>
-
+                <div className="col-span-1">
+                  <div className=" image1"></div>
+                </div>
+                <div className="col-span-1">
+                  <div className="image2"></div>
+                </div>
+                <div className="col-span-1">
+                  <div className=" image3"></div>
+                </div>
+                <div className="col-span-1">
+                  <div className=" image4"></div>
+                </div>
+                <div className="col-span-1">
+                  <div className=" image5"></div>
+                </div>
+              </div>
+            </div>
+            <div className="col-span-2 bg-black p-12 ">
+              <div className="">
+                <p className=" text-gray-400">04/11</p>
+                <p className=" text-gray-400 pt-8">DEVELOPER</p>
+                <p className="text-gray-300 font-bold ">Jeremy Harvey</p>
+                <p className="text-gray-200 pt-3">
+                  i realized she was just office pretty. Products need full
+                  resourcing and support from a cross-functional team in order
+                  to be built.
+                </p>
+                <div className="text-white pt-12">
+                  <FaInstagram className="inline" />
+                  <FaFacebookF className="inline ml-5" />
+                  <FaTwitter className="inline ml-5" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       </section>
-
-
-
-
-
-
-
-
-
-
-
 
       <section className="pt-40">
         <div className="container mx-auto">
